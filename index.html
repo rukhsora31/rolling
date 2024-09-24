@@ -23,7 +23,7 @@
                     <h2>Feed</h2>
                     <h2>Bids</h2>
                     <img src="./img/Group 1 (1).png" alt="">
-                    <button>Connect Wallet</button>
+                    <button id="open-btn" class="btn">Connect Wallet</button>
                 </div>
             </div>
         </div>
@@ -122,6 +122,20 @@
             </div>
         </div>
     </footer>
+
+    <div class="modal" id="modal">
+        <div class="modal__box">
+            <h6 id="close" class="modal__close">x</h6>
+            <h2>свяжитесь с нами</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, aliquid.</p>
+            <form id="telegramForm" action="">
+                <input id="name" placeholder="выше имя" type="text">
+                <input id="phone" placeholder="выш номер телефона" type="text">
+                <button class="btn">отправить заявку</button>
+            </form>
+            <h3 id="thanks"></h3>
+        </div>
+    </div>
 
     <script src="./script.js"></script>
 </body>
